@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal</title>
+</head>
+<body>
+    <header>
+        <h1>Portafolio Personal</h1>
+        <img src = "/img/f1.jpg" alt = "Imagen de Francisco Torres"/><br>
+        <nav>
+            <a href="#quien-soy">Abount me</a><br>
+            <a href="#experiecia">Experiencia</a><br>
+            <a href="#portafolio">Portafolio</a><br>
+            <a href="#contacto">Contacto</a><br>
+            <a href="#redes">GitHub</a>
+        </nav>
+    </header>
+    <section id="quien-soy">
+        <h2>¿Quien soy yo?</h2>
+        <p>Mi nombre es Francisco Torres estudiante de Ingenieria en Softaware de la EPN</p>
+    </section>
+    <main id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <p>Actualmente no cuento con experiencia laboral, pero he trabajado en distintos proyectos academicos</p>
+        <ul>
+            <li>ASTROSIM 3D: Simulador Interactivo del Sistema Solar</li>
+            <li>Sistema gestor de documentos para estudio juridico (SGEJ-A)</li>
+            <li>Sistema de gestión de alumnos de proyectos (SGAP)</li>
+        </ul>
+        
+    </main>
+
+    <section id="portafolio">
+        <h2>Portafolio</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>
+                        Proyecto
+                    </td>
+                    <td>
+                        Lenguaje Utilizado
+                    </td>
+                    <td>
+                        Descripción
+                    </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Astrosim 3D
+                    </td>
+                    <td>
+                        C++, OpenGL
+                    </td>
+                    <td>
+                        Simulador interactivo del sistema solar realizado con OpenGL e importación de modelos 3D
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        SGEJ-A
+                    </td>
+                    <td>
+                        Java
+                    </td>
+                    <td>
+                        Sistema Gestor de documentos juridicos
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        SGAP
+                    </td>
+                    <td>
+                        Java
+                    </td>
+                    <td>
+                        Sistema Gestor de asistentes de proyectos
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Para mas detalles consulta los siguientes enlaces:</p>
+        <a href = "Astrosim.html">Astrosim 3D</a><br>
+        <a href = "SGEJ-A.html">SGEJ-A</a><br>
+        <a href = "SGAP.html">SGAP</a><br>
+        
+    </section>
+
+    <section id="contacto">
+        <h2>Contactame</h2>
+        <p>Puedes utilizar el siguiente formulario para hacerme llegar un mensaje:</p>
+        <form action="">
+            <label for = "nombre">Nombre: </label><br>
+            <input type = "text" id = "nombre" placeholder="Ingresa tu nombre" required><br>
+            <label for = "email">Correo:</label><br>
+            <input type = "email" id = "email" placeholder="example@epn.edu.ec" required><br>
+            <label for = "asunto">Asunto (opcional): </label><br>
+            <input type="text" id = "asunto" placeholder="Consulta, Oferta laboral..."><br>
+            <label for = "mensaje">Mensaje: </label><br>
+            <textarea id = "mensaje" name="mensaje" rows="6" cols="70" placeholder="Tu mensaje aqui..." required></textarea>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+
+    </section>
+<footer id="redes">
+
+    <hr>
+    <p>Francisco Torres | Portafolio Personal</p>
+    <a href = "https://github.com/"><img src = "/img/GitHub.jpg" alt = "Enlace con imagen" width="100"/></a>
+
+</footer>
+</body>
+</html>
