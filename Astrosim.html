@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astrosim 3D</title>
+    <link rel ="stylesheet" href="/CSS/styleTest.css">
 </head>
-<body>
+<body class="cuerpo-general">
 <header>
     <h1>🛰️ASTROSIM 3D: Simulador Interactivo del Sistema Solar</h1>
+    <nav>
+        <a href="#general">Descripcion General</a><br>
+        <a href="#caracteristicas">Características Principales</a><br>
+        <a href="#tecnicas">Especificaciones Técnicas</a><br>
+        <a href="#educativo">Impacto Educativo</a><br>
+        <a href="#enlace">Enlace al Repositorio</a><br>
+    </nav>
     <h2>Descripcion General</h2>
 </header>
-<main>
+<main class="section" id="general">
     <p><b>ASTROSIM 3D</b> es una herramienta educativa de vanguardia diseñada para transformar la astronomía en una aventura visual inolvidable. Utilizando gráficos en tiempo real con OpenGL, este simulador permite a los usuarios —especialmente a los más pequeños— navegar por la inmensidad del espacio, explorando cada rincón de nuestro vecindario galáctico. El proyecto nace con el objetivo de romper la barrera de la educación tradicional, sustituyendo las imágenes estáticas de los libros por un entorno tridimensional dinámico donde la curiosidad es la principal guía.</p>
-    <video width="600" controls>
+    <video width="400" controls>
         <source src = "/video/Astrosim 3D.mp4" type = "video/mp4">
         Tu navegador no soporta videos en HTML5
     </video>
 </main>
 
-<section>
+<section class="section"  id="caracteristicas">
     <h2>Características Principales</h2>
     <hr>
     <h3>Exploración Intuitiva</h3>
@@ -27,6 +35,8 @@
         <li><b>Interfaz "Point & Learn":</b> Al seleccionar un cuerpo celeste por medio del teclado, se despliega una ficha técnica simplificada y colorida.</li>
         <li><b>Control Dinámico:</b> Sistema de movimiento optimizado para que los niños puedan manejarlo con facilidad, permitiendo rotaciones y traslaciones fluidas.</li>
     </ul>
+</section>
+<section class="section"  id="tecnicas">
     <h3> Especificaciones Técnicas</h3>
     <p>El motor gráfico ha sido desarrollado bajo principios sólidos de Computación Gráfica:</p>
     <ul>
@@ -35,6 +45,8 @@
         <li><b>Física de Órbitas:</b> Implementación de trayectorias elípticas basadas en leyes astronómicas, ajustadas visualmente para una percepción clara de la jerarquía espacial.</li>
         <li><b>Interfaz de Usuario (GUI):</b> Menús interactivos que no obstruyen la vista espacial, manteniendo la inmersión en todo momento.</li>
     </ul>
+</section>
+<section class="section" id="educativo">
     <h3>Impacto Educativo</h3>
     <hr>
     <p>AstroExplorer 3D no es solo un visor de planetas; es un laboratorio digital. Al interactuar con el sistema solar, los estudiantes logran:</p>
@@ -47,10 +59,11 @@
 
 </section>
 
-<footer>
+<footer id="enlace">
     <hr>
     <p>Francisco Torres | Portafolio Personal</p>
-    <a href = "https://github.com/Alcatraz2033/Comp-G-Grupo3"><img src = "/img/GitHub.jpg" alt = "Enlace con imagen" width="100"/></a>
+    <p><b>Repositorio del proyecto:</b></p>
+    <a href = "https://github.com/Alcatraz2033/Comp-G-Grupo3"><img class="image" src = "/img/GitHub.jpg" alt = "Enlace con imagen" width="100"/></a>
 </footer>
 </body>
 </html>

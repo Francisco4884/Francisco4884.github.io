@@ -1,0 +1,77 @@
+
+    .cuerpo-general{
+        border: 2px solid navy;
+        outline: 2px solid red;
+        outline-offset: 2px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        background-color: #0A0F1C;
+        background-image:linear-gradient(rgba(10,15,28,0.85), rgba(10,15,28,0.85)), url("/img/epn.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 300px;
+        background-attachment: fixed;
+        color: #F9FAFB;
+    }    
+    h1{
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #F9FAFB;
+            
+    }
+    .image{
+        border-radius: 50%;
+        
+    }
+    table{
+        border-collapse: collapse;
+        background-color: #111827;
+    }
+    th{
+        border: 4px solid #a512e4;
+        text-align: center;
+        background-color: #0A0F1C;
+        color: #00FFF7;
+    }
+    td{
+        border: 4px solid #a512e4;
+        text-align: center;
+        
+    }
+        
+    
+    header{
+     
+     border-radius: 0px, 0px, 10px, 10px;
+    }
+       nav{
+        border-top-left-radius: 10px;
+        border-top-style: groove;
+        border-left-style: groove;
+        
+        
+        border-radius: 0px 0px 10px 10px;
+        padding-left: 10px;
+       }
+       
+
+       .section{
+        border-bottom-right-radius: 10px;
+        border-bottom-style: groove;
+        border-right-style: groove;
+        border-color: #22D3EE;
+        
+       }
+       #button{
+        background-color: #a512e4;
+        border: 2px groove #22D3EE;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        color: #F9FAFB;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-style: bold;
+       }
